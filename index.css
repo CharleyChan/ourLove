@@ -81,7 +81,7 @@ button.navbar-toggle.collapsed:focus,
 
 /*恋爱时间*/
 div.fall-in-love-time{
-  background: url("images/menu-bg.jpg") no-repeat fixed -191px #5254A1;
+  background: url("images/menu-bg.jpg") repeat fixed -191px #5254A1;
   color: #ffffff;
   min-height: 200px;
   display: flex;
@@ -125,12 +125,15 @@ div.intros{
 }
 .intros p.desc{
   color: #D45D60;
-  padding: 15px;
+  padding: 25px 15px;
   text-align: left;
   margin-bottom: 0;
 }
 
 /*tab*/
+.love-tab{
+  background: #DBEEFB;
+}
 ul.nav.nav-tabs{
   background: url("images/menu-bg.jpg") no-repeat -44px -325px  #5254A1;
 }
@@ -152,7 +155,39 @@ ul.nav.nav-tabs{
   font-size: 16px;
   font-weight: bold;
 }
+.tab-content .tab-pane{
+  text-align: center;
+}
+.tab-content .tab-pane .tab-img-item{
+  padding-top: 20px;
+}
+.tab-content .tab-pane .tab-img-item > p{
+  color: #9d9d9d;
+  margin:10px 0;
+}
 
+.tab-content img.img-circle.tab-image{
+  max-width: 185px;
+}
+
+/*footer*/
+footer{
+  background: url("images/menu-bg.jpg") no-repeat -349px -349px  #5254A1;
+  color: #ffffff;
+  font-size: 16px;
+  overflow: hidden;
+  min-height: 100px;
+}
+footer .copy-right{
+  float: left;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+footer .record{
+  float: right;
+  margin-right: 30px;
+  margin-top: 50px;
+}
 @media (max-width: 768px){
   .intros .intros-item{   
    margin-top: 70px; 
