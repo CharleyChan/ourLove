@@ -1,0 +1,166 @@
+body{
+  /*background: url(images/bg.jpg) repeat top #5254A1;*/
+}
+body div.homepage{
+  max-width: 995px;
+  margin: 0 auto;
+}
+
+header .navbar-default{
+  background: url("images/menu-bg.jpg") no-repeat -2px center #5254A1;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+header .navbar-default .navbar-nav>li>a{
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+header nav a.navbar-brand{
+  width: 206px;
+  padding: 0;
+  background: url("images/logo.png") no-repeat center -3px;
+}
+ul.navbar-nav{
+  margin: 0 -15px;
+}
+span.caret-love{
+  display: inline-block;
+  background: url("images/menu_heart.gif");
+  width: 14px;
+  height: 12px;
+  margin-right: 5px;
+}
+
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>.open>a, 
+.navbar-default .navbar-nav>.open>a:focus, 
+.navbar-default .navbar-nav>.open>a:hover,
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus,
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus{
+  background: rgba(82,84,161,0.6);
+  color: #ffffff;
+}
+.navbar-nav>li>.dropdown-menu{
+  background: url("images/menu-bg.jpg") no-repeat -9px -267px #5254A1;
+  color: #ffffff;
+  padding: 0;
+  border-radius: 0;
+}
+.dropdown-menu>li>a,
+.navbar-default .navbar-nav .open .dropdown-menu>li>a{
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.navbar-default .navbar-toggle{
+  border-color: #ffffff;
+}
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: #ffffff;
+}
+button.navbar-toggle.collapsed:hover,
+button.navbar-toggle.collapsed:focus,
+.navbar-default .navbar-toggle:focus, 
+.navbar-default .navbar-toggle:hover{
+    background: rgba(82,84,161,0.6);
+}
+
+
+/*banner*/
+.banner .item .carousel-caption p{
+    font-size: 24px;
+    color: #ffffff;
+}
+
+/*恋爱时间*/
+div.fall-in-love-time{
+  background: url("images/menu-bg.jpg") no-repeat fixed -191px #5254A1;
+  color: #ffffff;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.fall-in-love-time h3{
+  text-align: center;
+ 
+}
+
+/*情侣介绍信息*/
+div.intros{
+  position: relative;
+  background: #DBEEFB;
+  /*box-shadow: 0px 3px 5px #ddd;*/
+  
+}
+
+.intros .intros-item{
+  text-align: center;
+
+}
+.intros .introsBg{
+  height: 127px;
+  background: url("images/left_banner.gif") no-repeat center;
+}
+.intros img.introsImg{
+    max-width: 120px;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.intros h3.name{
+  position: absolute;
+  top: 68px;
+  left: 50%;
+  transform: translate(-50%);
+  color: #D45D60;
+}
+.intros p.desc{
+  color: #D45D60;
+  padding: 15px;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+/*tab*/
+ul.nav.nav-tabs{
+  background: url("images/menu-bg.jpg") no-repeat -44px -325px  #5254A1;
+}
+.nav-tabs>li>a{
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+}
+.nav-tabs>li>a:focus, 
+.nav-tabs>li>a:hover{
+  background: rgba(82,84,161,0.6);
+}
+
+.nav-tabs>li.active>a, 
+.nav-tabs>li.active>a:focus, 
+.nav-tabs>li.active>a:hover{
+  background: rgba(82,84,161,0.6);
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px){
+  .intros .intros-item{   
+   margin-top: 70px; 
+  }
+}
+
+@media (min-width: 1200px){
+  .container{
+    width: 995px;
+  }
+}
